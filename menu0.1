@@ -1,31 +1,62 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+    <head>
+        <title><h1>jornal da manha oficial</h1></title>
+        <style type= "text/css">
+        
+        .titulo
+        { 
+            text-align: center;
+            font-size: 170%;
+            opacity:85%;
+            padding-top: 1%;
+            padding-bottom: 0.3%;
+        }
 
-            <body>
-                <h2>captura</h2>
-                
-                <form method="get" action="exibir.php">
-                    <label>Digite seu nome:</label><br>
-                    <input type="text" id="nome" name="nome">
-                   
-               
-
-                <html>
-    <head></head>
-            
-            <form method="get" action="exibir.php">
-                <label>Digite a nota1:</label><br>
-                <input type="text" id="nota1" name="nota1">
-                
-          
+        .menu_inicial
+        {
+            list-style: none;
+            justify-content: space-evenly;
+            display: flex;
+            padding-top: 2%;
+        }
+        a
+        {
+            color:black;
+            text-decoration: none;
+        }
+        .hr
+        {    
+            border: 1px solid rgba(0, 0, 0, 0.581);
+            width: 100%; 
+        }
         
 
-        <form method="get" action="exibir.php">
-            <label>Digite a nota1:</label><br>
-            <input type="text" id="nota1" name="nota1">
-            <button type="submit">enviar</button>
-        </form>
-    
+        </style>
+    </head>
+    <body>
+        <div id = "cabeçalho">
+            <section class = "titulo">
+                <h1>JORNAL DA MANHA</h1> 
+            </section>
+            <hr class="hr">
+            <section class = "menu_inicial">
+            
+                <li>
+                    <a href="#economia">ECONOMIA</a>
+                </li>
+                <li>
+                    <a href="#mundo">MUNDO</a>
+                </li>
+                <li>
+                    <a href="#esporte">ESPORTE</a>
+                </li>
+                <li>
+                    <a href="#saude">SAUDE</a>
+                </li>
+
+
+            </section>
+        </div>
+        
+    </body>
+</html>

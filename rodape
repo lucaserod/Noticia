@@ -1,0 +1,43 @@
+.rodape {
+  background-color: rgba(2, 22, 243, 0.89);
+  color: white;
+  padding: 2% 5%;
+  display: flex;
+  align-items: center; /* Alinha verticalmente no centro */
+  justify-content: space-between; /* Separa o título das imagens */
+}
+
+.rodape h1 {
+  font-size: 150%;
+  margin: 0; /* Remove margens padrão */
+}
+
+.rodape .icons {
+  display: flex;
+  gap: 20px; /* Espaço entre as imagens */
+}
+.rodape .icons p
+{
+  padding-top: 3%;
+}
+
+.rodape img {
+  width: 40px; /* Define o tamanho das imagens */
+  height: auto; /* Mantém a proporção */
+}
+
+
+div id = "rodape">
+            <footer class = "rodape">
+                <h1>JORNAL DA MANHA</h1>
+               
+                <div class = "icons">
+                <p>SIGA</p>
+                <img id = "facebook icone" src="c:\Users\Humberto Luna\Downloads\facebook.png">
+                <img id = "whatsapp icone" src="C:\Users\Humberto Luna\Downloads\whatsapp.png">  
+                <img id = "instagram icone" src="c:\Users\Humberto Luna\Downloads\instagram.png">
+                <img id = "likedin icone" src="c:\Users\Humberto Luna\Downloads\linkedin.png">
+                </div>
+            </footer>
+            
+        </div>

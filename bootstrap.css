@@ -12152,31 +12152,31 @@ textarea.form-control-lg {
   height: auto; /* Mantém a proporção */
 }
 .titulo
-        { 
-            text-align: center;
-            font-size: 170%;
-            opacity:85%;
-            padding-top: 1%;
-            padding-bottom: 0.3%;
-        }
+{ 
+    text-align: center;
+    font-size: 170%;
+    opacity:85%;
+    padding-top: 1%;
+    padding-bottom: 0.3%;
+}
 
-        .menu_inicial
-        {
-            list-style: none;
-            justify-content: space-evenly;
-            display: flex;
-            padding-top: 2%;
-        }
-        a
-        {
-            color:black;
-            text-decoration: none;
-        }
-        .hr
-        {    
-            border: 1px solid rgba(0, 0, 0, 0.581);
-            width: 100%; 
-        }
+.menu_inicial
+{
+    list-style: none;
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 2%;
+}
+a
+{
+    color:black;
+    text-decoration: none;
+}
+.hr
+{    
+    border: 1px solid rgba(0, 0, 0, 0.581);
+    width: 100%; 
+}
 .imgmateria{
     max-width: 50%;
     margin-left: 25%;

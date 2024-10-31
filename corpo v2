@@ -34,6 +34,7 @@
 
             </section>
         </div>
+        <hr>
         <div id="bodyinteiro">
             
             <section id="inicio" class="offset-1">
@@ -51,7 +52,7 @@
                     <p class="card-subtitle">Diz sobre a matéria</p>
                     <p class="card-title"  style="color: blue;">Diz sobre um tópico (esporte/economia)</p>
                     <p class="card-subtitle">Diz sobre o item acima</p>
-
+            </section>
                 <img src="https://www.ienoticia.com.br/wp-content/uploads/2017/10/NOT%C3%8DCIA.png" alt="Imagem Notícia" class="img">
                 </section>
 
@@ -143,16 +144,16 @@
         
         <div id = "rodape">
             <footer class = "rodape">
-
+                <div class="offset-1">
                 <h1>JORNAL DA MANHA</h1>
-               
+                </div>
                 <div class = "icons">
 
                 <p>SIGA</p>
-                <img id = "facebook icone" src="c:\Users\Humberto Luna\Downloads\facebook.png">
-                <img id = "whatsapp icone" src="C:\Users\Humberto Luna\Downloads\whatsapp.png">  
-                <img id = "instagram icone" src="c:\Users\Humberto Luna\Downloads\instagram.png">
-                <img id = "likedin icone" src="c:\Users\Humberto Luna\Downloads\linkedin.png">
+                <img id = "facebook icone" src="https://cdn-icons-png.flaticon.com/128/1077/1077041.png">
+                <img id = "whatsapp icone" src="https://cdn-icons-png.flaticon.com/128/1384/1384095.png">  
+                <img id = "instagram icone" src="https://cdn-icons-png.flaticon.com/128/717/717392.png">
+                <img id = "telegram icone" src="https://cdn-icons-png.flaticon.com/128/1946/1946547.png">
                 
                 </div>
 
@@ -163,3 +164,4 @@
         
     </body>
 </html>
+            

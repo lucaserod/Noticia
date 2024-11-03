@@ -1,0 +1,8 @@
+<?php
+if(isset($_SESSION["logou"]) && $_SESSION["logou"] == 1){
+    header("Location: jornal_da_manha.php");
+}else{
+    $_SESSION["erro"] = 2;
+}
+
+?>

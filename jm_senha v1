@@ -1,0 +1,18 @@
+<?php
+
+$senha = "1";
+$login = "a";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (($_POST["login"] === $login) && ($_POST["senha"] === $senha)){
+        $_SESSION["logou"] = 1;
+        header("Location: jornal_da_manha.php");
+    }else{
+        $_SESSION["erro"] = 1;
+        header("Location: jm_login.php");
+    }
+}
+
+
+
+?>

@@ -1,6 +1,7 @@
 <?php
-session_start()
+session_start();
 ?>
+
 
 <html lang="pt-BR">
     
@@ -33,6 +34,9 @@ session_start()
                 </li>
                 <li>
                     <a href="#saude">SAUDE</a>
+                </li>
+                <li>
+                    <a href="jm_login.php">LOGIN</a>
                 </li>
 
 

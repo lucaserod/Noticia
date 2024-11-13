@@ -19,7 +19,8 @@ session_start();
         <br>
         senha:<input type="number" name="senha">
         <br>
-        <input type="submit" value="Enviar">
+        <input type="submit"name="action" value="Enviar">
+        <input type="submit" name= "action" value="Criar">
 
     </form>
     <?php
@@ -30,6 +31,7 @@ session_start();
             echo"<h1><b>faça login!</b></h1>";
         }
     }
+    
     ?>
     </body>
 

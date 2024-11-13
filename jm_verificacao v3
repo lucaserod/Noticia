@@ -1,0 +1,17 @@
+<?php
+session_start();
+
+if (isset($_SESSION["logou"])) {
+    if ($_SESSION["logou"] == 1) {
+        header("Location: jornal_da_manha_verificado.php");
+        exit();
+    } elseif ($_SESSION["logou"] == 2) {
+        header("Location: criar_usuario.php");
+        exit();
+    }
+} else {
+    $_SESSION["erro"] = 2;
+    header("Location: jm_login.php");
+    exit();
+}
+?>

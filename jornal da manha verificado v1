@@ -1,5 +1,6 @@
 <?php
 session_start();
+include 'login_e_senha_bd.php'
 ?>
 
 
@@ -44,10 +45,25 @@ session_start();
             
             <section id="inicio" class="offset-1">
                 
-                <nav>
-                    <h1 class="card-title justify-content-start">NOTICIA BEM GRANDE COMO PRINCIPAL</h1>
-                    <p class="card-subtitle justify-content-start">subtitulo</p>
-                </nav>
+            <?php
+            $sql = "SELECT * FROM $nome_tabela2";
+
+            $result = $conexao_bd->query($sql);
+
+            if($result->num_rows > 0){
+                while($row = $result->fetch_assoc()){
+
+                    echo "<a href='jm_noticia.php?id=".$row['id']."'><h1>".$row['titulo']."</h1></a>";
+                    echo "<p>".$row['subtitulo']."</p>";
+                   
+                  
+                
+            }
+            }else{
+                echo "<p> Nenhuma nova noticia.</p>";
+            }
+            
+            ?>
 
             </section>
 

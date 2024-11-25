@@ -12,14 +12,20 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             $usuario = $_POST["login"];
             $senha = $_POST["senha"];
 
+            if($usuario === "adm"){
+                if($senha === "123")
+                header("Location: jm_adm_verificado.php");
+            }
 
             $sql = "SELECT * FROM $nome_tabela WHERE usuario = '$usuario' AND senha = '$senha'";
             $result = $conexao_bd->query($sql);
 
             if ($result->num_rows > 0) {
                 header("Location: jornal_da_manha_verificado.php");
-
             }
+            
+
+            
         }    
     }
     if(isset($_POST["action"]) && $_POST["action"] == "Criar"){
